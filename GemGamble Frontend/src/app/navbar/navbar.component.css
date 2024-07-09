@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%; /* Ensure the navbar spans the entire width */
+}
+.logo {
+  /* Additional styles for the logo */
+  margin-left: 1rem;
+}
+.profile-menu {
+  /* Styles for the profile dropdown button */
+  margin-right: 1rem;
+}
+.profile-button {
+  /* Button styles */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-menu {
+  /* Styles for the dropdown menu */
+  display: none;
+}
+.dropdown-menu.show {
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .navbar .logo {
+    padding-left: 10px; /* Adjust the logo padding for smaller screens */
+  }
+}

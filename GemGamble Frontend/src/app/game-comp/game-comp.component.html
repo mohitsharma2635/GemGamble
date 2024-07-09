@@ -1,0 +1,86 @@
+<div>
+  <app-navbar></app-navbar>
+</div>
+<div class="flex flex-col lg:flex-row gap-8">
+  <!-- Sidebar (left side) -->
+  <div class="sidebar bg-slate-600 rounded-2xl m-4 lg:m-14 lg:ml-24 text-white p-4 lg:p-8">
+    <form action="/submit-game-form" method="POST">
+      <div class="form-group mb-4">
+        <label for="mines" class="block text-lg mb-2">Number of Mines:</label>
+        <select id="mines" name="mines" class="w-full p-2 rounded bg-gray-900 text-white" [(ngModel)]="mines">
+          <option value="1">1 Mine</option>
+          <option value="2">2 Mines</option>
+          <option value="3">3 Mines</option>
+          <option value="4">4 Mines</option>
+          <option value="5">5 Mines</option>
+          <option value="6">6 Mines</option>
+          <option value="7">7 Mines</option>
+          <option value="8">8 Mines</option>
+          <option value="9">9 Mines</option>
+          <option value="10">10 Mines</option>
+          <option value="11">11 Mines</option>
+          <option value="12">12 Mines</option>
+          <option value="13">13 Mines</option>
+          <option value="14">14 Mines</option>
+          <option value="15">15 Mines</option>
+          <option value="16">16 Mines</option>
+          <option value="17">17 Mines</option>
+          <option value="18">18 Mines</option>
+          <option value="19">19 Mines</option>
+          <option value="20">20 Mines</option>
+          <option value="21">21 Mines</option>
+          <option value="22">22 Mines</option>
+          <option value="23">23 Mines</option>
+          <option value="24">24 Mines</option>
+        </select>
+      </div>
+      <!-- Uncomment this section if needed -->
+
+      <div class="form-group mb-4">
+        <label for="bet-amount" class="block text-lg mb-2">Bet Amount (Rs):</label>
+        <input type="number" id="bet-amount" name="bet-amount" min="1" step="1" required
+          class="w-full p-2 rounded bg-gray-900 text-white">
+      </div>
+
+      <button type="submit" class="bg-green-600 w-full lg:w-52 hover:bg-green-700 text-white px-4 py-2 rounded-lg"
+        (click)="toggleButtonText()" [innerText]="buttonText">
+      </button>
+    </form>
+  </div>
+
+  <!-- Game Grid (center) -->
+  <div class="flex justify-center">
+    <div class="game-container bg-slate-600 rounded-lg lg:h-[650px] lg:w-[900px] m-4 lg:m-20">
+      <div class="ml-4 lg:ml-8">
+        <div class="p-2 lg:p-4 grid grid-cols-5 gap-2" id="game-grid">
+          <!-- Ensure strict 5x5 grid -->
+          <ng-container *ngFor="let boxIndex of boxIndices; let i = index">
+            <div
+              class="grid-item bg-slate-900 hover:bg-slate-800 lg:h-[111px] lg:w-[111px] rounded-lg shadow-md p-2 lg:p-4 flex items-center justify-center"
+              (click)="boxClicked(i)"> <!-- Pass index 'i' instead of 'boxIndex' -->
+              <img *ngIf="boxStates[i] === 'diamond'" src="../assets/diamond.jpg" alt="diamond" />
+              <img *ngIf="boxStates[i] === 'bomb'" src="../assets/bomb.png" alt="Bomb" />
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modals (game over and win) -->
+<div *ngIf="modalService.isOpen && (modalService.modalType === 'gameOver' || modalService.modalType === 'win')"
+  class="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex items-center justify-center">
+  <div class="bg-white p-4 lg:p-8 rounded-lg">
+    <h2 class="text-xl lg:text-2xl font-bold mb-2 lg:mb-4" [ngSwitch]="modalService.modalType">
+      <ng-container *ngSwitchCase="'gameOver'">Bomb Clicked!</ng-container>
+      <ng-container *ngSwitchCase="'win'">You won!</ng-container>
+    </h2>
+    <p class="text-sm lg:text-base" [ngSwitch]="modalService.modalType">
+      <ng-container *ngSwitchCase="'gameOver'">You lost :(</ng-container>
+      <ng-container *ngSwitchCase="'win'">You win :)</ng-container>
+    </p>
+    <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg mt-2 lg:mt-4"
+      (click)="modalService.closeModal()">Close</button>
+  </div>
+</div>

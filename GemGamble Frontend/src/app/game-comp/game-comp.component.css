@@ -1,0 +1,11 @@
+.grid {
+  perspective: 1000px; /* Perspective for 3D effect */
+}
+
+.grid-item {
+  transition: transform 0.4s ease; /* Smooth transition for hover effect */
+}
+
+.grid-item:hover {
+  transform: translatey(-8px); /* Apply 3D transformation on hover */
+}

@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|c:\\users\\mohit.sharma\\source\\repos\\stakebackend\\stakebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|solutionrelative:stakebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Stake/True/SqlTable/dbo.StakeTable.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|c:\\users\\mohit.sharma\\source\\repos\\stakebackend\\stakebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|solutionrelative:stakebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Modals\\StakeModals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StakeBackend\\Modals\\StakeModals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|c:\\users\\mohit.sharma\\source\\repos\\stakebackend\\stakebackend\\controllers\\stakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|solutionrelative:stakebackend\\controllers\\stakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|c:\\users\\mohit.sharma\\source\\repos\\stakebackend\\stakebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|solutionrelative:stakebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|c:\\users\\mohit.sharma\\source\\repos\\stakebackend\\stakebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|solutionrelative:stakebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohit.sharma\\AppData\\Local\\Temp\\pguhattk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|c:\\users\\mohit.sharma\\source\\repos\\stakebackend\\stakebackend\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{453C3486-2790-412A-B295-9C1D06B54829}|StakeBackend\\StakeBackend.csproj|solutionrelative:stakebackend\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Class.cs",
+              "RelativeDocumentMoniker": "StakeBackend\\Class.cs",
+              "ToolTip": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Class.cs",
+              "RelativeToolTip": "StakeBackend\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T10:26:32.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StakeBackend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StakeBackend\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T10:16:19.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StakeModals.cs",
+              "DocumentMoniker": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Modals\\StakeModals.cs",
+              "RelativeDocumentMoniker": "StakeBackend\\Modals\\StakeModals.cs",
+              "ToolTip": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Modals\\StakeModals.cs",
+              "RelativeToolTip": "StakeBackend\\Modals\\StakeModals.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:31:24.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Program.cs",
+              "RelativeDocumentMoniker": "StakeBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Program.cs",
+              "RelativeToolTip": "StakeBackend\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:28:41.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.StakeTable [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Stake/True/SqlTable/dbo.StakeTable.sql",
+              "ToolTip": "dbo.StakeTable [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002897|",
+              "WhenOpened": "2024-06-26T10:48:19.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\mohit.sharma\\AppData\\Local\\Temp\\pguhattk..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\pguhattk..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002897|",
+              "WhenOpened": "2024-06-26T09:08:00.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "StakeBackend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "StakeBackend\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:05:59.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "StakeBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\appsettings.json",
+              "RelativeToolTip": "StakeBackend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-24T06:24:57.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StakeController.cs",
+              "DocumentMoniker": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Controllers\\StakeController.cs",
+              "RelativeDocumentMoniker": "StakeBackend\\Controllers\\StakeController.cs",
+              "ToolTip": "C:\\Users\\mohit.sharma\\source\\repos\\StakeBackend\\StakeBackend\\Controllers\\StakeController.cs",
+              "RelativeToolTip": "StakeBackend\\Controllers\\StakeController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:53:12.076Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
